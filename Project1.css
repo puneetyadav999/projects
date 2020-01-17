@@ -1,5 +1,13 @@
 *{
-    font-family:sans-serif
+    font-family:sans-serif;
+}
+
+.fullwindow{
+    border: 2px solid black;
+   padding: 10px;
+   margin: 10px;
+
+
 }
 
 .header{
@@ -11,8 +19,9 @@
 }
 
 .websitebar{
-    margin-left:135px;
-    width: 50%;
+    float: left;
+    margin-left:160px;
+    width: 40%;
     border: 2px solid black;
 
     height: 30px;
@@ -21,11 +30,13 @@
 
 .searchbar{
 
-    margin-left:90px;
-    width: 15%;
+
+   float: left;
+   margin-left:150px;
     border: 2px solid black;
-    height:15px;
-    margin-top: 20px;
+    height:30px;
+    text-align: center;
+
     height: 30px;
     border-radius: 15px;
 
@@ -33,7 +44,7 @@
 
 .centerbar{
 
-
+  /*
     display: block;
     margin: 0 auto;
     width: 65%;
@@ -41,6 +52,7 @@
     height:15px;
     margin-top: 20px;
     height: 30px;
+    */
 
 }
 
