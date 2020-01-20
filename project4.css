@@ -1,0 +1,102 @@
+/*CSS FILE FOR FORM PROJECT GIVEN BY PRAVEER SIR */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    margin :0;
+}
+
+
+.entireform {
+
+
+
+    /*Why doenst this border work? */
+
+}
+.header {
+
+    background:#f0f5f5;
+    height: auto;
+
+     border:5px solid black;
+    margin:2em 20em 20em 20em;
+
+
+}
+
+.top {
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size:30px;
+    color:rgb(0, 167, 179);
+    font-weight: bold;
+
+
+}
+
+.form{
+
+    display: block;
+    text-align: left;
+    margin:3em 7em 10em 7em;
+    position: rea
+
+}
+
+
+
+label {
+
+    color:#2d7d98;
+    font-weight:500;
+    margin-top: 1em;
+    display: block;
+    font-size:1.2em;
+
+
+}
+
+
+input[type=text]{
+
+    width:100%;
+    font-size:1.3em;
+    padding:1em 0em;
+
+
+}
+
+button[type="submit"]{
+    text-align: right;
+    background-color: #4CAF50;
+    float: right;
+    margin-top: 20px;
+    font-size: 50px;
+    background-color: #2eb8b8;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    margin-bottom: 10em;
+    padding: 0.5em;
+
+    color:white;}
+
+.footer{
+    float: right;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
